@@ -1271,7 +1271,7 @@ Mu保存文件的默认目录是“Mu_code”，它位于用户目录的根目�
 
 我们提供的库文件“PCA9685\.py”和“servo\.py”的路径如下：
 
-![Img](./media/img-20230327142850.png)
+![Img](./media/img-20250219135520.png)
 
 复制粘贴我们提供的库文件“PCA9685\.py”和“servo\.py”到“mu_code”文件夹中。复制成功后，如下图：
 
@@ -1364,7 +1364,7 @@ while True:
 
 **4.添加库文件：**
 
-添加库文件的方法请参照<span style="color: rgb(255, 76, 65);">Python教程中的“第14课 舵机转动”</span>。
+添加库文件的方法请参照 **Python教程中的** [第14课 舵机转动](https://www.keyesrobot.cn/projects/KE3060-KE3061/zh-cn/latest/docs/Python_%E6%95%99%E7%A8%8B.html#id16) 。
 
 
 **5.实验代码：**
@@ -1581,7 +1581,7 @@ while True:
 
 **4.添加库文件：**
                                                                                
-添加库文件的方法请参照<span style="color: rgb(255, 76, 65);">Python教程中的“第14课 舵机转动”</span>。
+添加库文件的方法请参照 **Python教程中的** [第14课 舵机转动](https://www.keyesrobot.cn/projects/KE3060-KE3061/zh-cn/latest/docs/Python_%E6%95%99%E7%A8%8B.html#id16) 。
 
 
 **5.实验代码：**                                               
