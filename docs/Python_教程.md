@@ -20,7 +20,7 @@ Mu是一个面向初学者程序员的Python代码编辑器，它基于教师和
 
 ![Img](./media/img-20230327135404.png)
 
-打开链接：https://codewith.mu/en/download 下载对应的Mu软件版本。
+打开链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 下载对应的Mu软件版本。
 
 ![Img](./media/img-20230327135438.png)
 
@@ -252,11 +252,11 @@ while True:
 
 按照之前的方式将代码下载到micro：bit主板，micro USB数据线不要拔下来，利用micro USB数据线上电，micro:bit主板上的LED点阵屏切换显示“![Img](./media/img-20230327154538.png)”图案和“![Img](./media/img-20230327154544.png)”图案，循环进行。
 
-<span style="color: rgb(255, 76, 65);">如果存在下载问题，请断开micro USB线和Micro：bit，然后重新连接它们并重新打开编译器，尝试再次下载。</span>
-
 ![Img](./media/img-20230327154603.png)
 
 ![Img](./media/img-20230327154607.png)
+
+<span style="color: rgb(255, 76, 65);">如果存在下载问题，请断开micro USB线和Micro：bit，然后重新连接它们并重新打开编译器，尝试再次下载。</span>
 
 **6. 扩展小知识：**
 
@@ -1257,6 +1257,8 @@ while True:
 
 **5.添加库文件：**  
 
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了“**PCA9685\.py**”和“**servo\.py**”库文件，此步骤直接跳过。</span>**
+
 <span style="color: rgb(255, 76, 65);">特别注意：导入库文件前需要给Micro:bit主板上传一个.py的代码（空代码也是可以的），这里我们是以Python教程中的“**第14课 舵机转动.py**”代码为例。</span>
 
 导入“**PCA9685\.py**”和“**servo\.py**”库文件
@@ -1363,6 +1365,8 @@ while True:
 
 
 **4.添加库文件：**
+
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了“**PCA9685\.py**”和“**servo\.py**”库文件，此步骤直接跳过。</span>**
 
 添加库文件的方法请参照 **Python教程中的** [第14课 舵机转动](https://www.keyesrobot.cn/projects/KE3060-KE3061/zh-cn/latest/docs/Python_%E6%95%99%E7%A8%8B.html#id16) 。
 
@@ -1580,7 +1584,9 @@ while True:
 
 
 **4.添加库文件：**
-                                                                               
+
+ **<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了“**PCA9685\.py**”和“**servo\.py**”库文件，此步骤直接跳过。</span>** 
+
 添加库文件的方法请参照 **Python教程中的** [第14课 舵机转动](https://www.keyesrobot.cn/projects/KE3060-KE3061/zh-cn/latest/docs/Python_%E6%95%99%E7%A8%8B.html#id16) 。
 
 

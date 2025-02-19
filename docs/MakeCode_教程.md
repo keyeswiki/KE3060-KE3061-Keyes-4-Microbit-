@@ -85,6 +85,7 @@ Micro:bit 将在您的电脑上显示为一个名为'MICROBIT'的驱动器。但
 ![Img](./media/img-20230417113729.png)
 
 ②点击“JS JavaScript”，你可以看到对应的JavaScript语言代码程序，如下图：
+
 ![Img](./media/img-20230417113820.png)
 
 ③你还可以点击“JS JavaScript ”，再点击下拉按钮选择“Python”，你还可以看到对应的Python语言代码程序，如下图：
@@ -163,9 +164,9 @@ Micro: bit主板只能接收.hex文件，不会存储任何其他文件！
 
 在弹出窗口中选中对应的“**设备**”，然后单击“**连接**”按钮。 如果弹出窗口中没有设备，请参考以下内容：[https://makecode.microbit.org/device/usb/webusb/troubleshoot](https://makecode.microbit.org/device/usb/webusb/troubleshoot)。
 
-当然，如果你不想点击链接进入相关页面中查看，你也可以在本教程的“相关资料”文件夹中直接阅读“**用WebUSB排除下载过程中的故障**”文件。 
+当然，如果你不想点击链接进入相关页面中查看，你也可以在“相关其他资料”教程中直接阅读“**用WebUSB排除下载过程中的故障**”。 
 
-如果你的Micro:bit主板出现问题是需要更新Micro:bit的固件，在本教程的“相关资料”文件夹中的“**如何更新micro:bit主板的固件**”文件介绍了如何更新Micro:bit的固件，其内容来自：[https://microbit.org/guide/firmware/](https://microbit.org/guide/firmware/) 
+如果你的Micro:bit主板出现问题是需要更新Micro:bit的固件，在“相关其他资料”教程中的“**如何更新micro:bit主板的固件**”介绍了如何更新Micro:bit的固件，其内容来自：[https://microbit.org/guide/firmware/](https://microbit.org/guide/firmware/) 
 
 ![Img](./media/img-20230417121112.png)
 
@@ -338,17 +339,18 @@ Micro: bit主板只能接收.hex文件，不会存储任何其他文件！
 
 
 **（2）完整的代码程序**
+
 ![Img](./media/img-20230417134941.png)
 
 **4.实验结果:**                                                                                
 
 按照之前的方式将代码下载到Micro:bit主板，Micro USB数据线不要拔下来，利用Micro USB数据线上电，Micro:bit主板上的LED点阵屏切换显示“❤”图案和“![Img](./media/img-20230324144355.png)”图案，循环进行。
 
-<span style="color: rgb(255, 76, 65);">如果存在下载问题，请断开Micro USB线和Micro:bit主板，然后重新连接它们并重新打开MakeCode编辑器，以尝试再次下载。</span>
-
 ![Img](./media/img-20230324144427.png)
 
 ![Img](./media/img-20230324144431.png)
+
+<span style="color: rgb(255, 76, 65);">如果存在下载问题，请断开Micro USB线和Micro:bit主板，然后重新连接它们并重新打开MakeCode编辑器，以尝试再次下载。</span>
 
 ### 第02课 LED点阵中单个LED显示
 
@@ -948,11 +950,12 @@ Micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 ![Img](./media/img-20230324165136.png)
 
-更多音乐简谱知识的相关链接：[https://en.wikipedia.org/wiki/`Numbered_musical_notation](https://en.wikipedia.org/wiki/`Numbered_musical_notation)
+更多音乐简谱知识的相关链接：[https://en.wikipedia.org/wiki/Numbered_musical_notation](https://en.wikipedia.org/wiki/Numbered_musical_notation)
 
 可以直接加载我们提供的程序，也可以自己通过拖动程序块来编写程序，操作步骤如下：
 
 **（1）寻找代码块**
+
 ![Img](./media/img-20230417134857.png)
 
 ![Img](./media/img-20230417144138.png)
@@ -1330,6 +1333,9 @@ d.几秒钟后，代码程序“**1**”上传成功，会显示如下图。然�
 
 **（1）添加库文件**
 
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了库文件，此步骤直接跳过。</span>** 
+
+
 打开MakeCode，先点击右上角的齿轮图标![Img](./media/img-20230324110032.png)（设置），再点击“扩展”。
 
 ![Img](./media/img-20230417131743.png)
@@ -1405,6 +1411,8 @@ d.几秒钟后，代码程序“**1**”上传成功，会显示如下图。然�
 可以直接加载我们提供的程序，也可以自己通过拖动程序块来编写程序程序，操作步骤如下：
 
 **（1）添加库文件**
+
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了库文件，此步骤直接跳过。</span>**
 
 打开MakeCode，先点击右上角的齿轮图标![Img](./media/img-20230324110032.png)（设置），再点击“扩展”。
 
@@ -1544,7 +1552,7 @@ VCC接单片机电源输出端V/VCC（3.3/5V），GND接单片机G/GND，原始�
 
 **初始化（即舵机初始角度）**
 
-|舵机4（左侧舵机）：130°|舵机1（右侧舵机）：60°|
+|舵机4（左侧舵机）：120°|舵机1（右侧舵机）：60°|
 | :--: | :--: |
 |**舵机2（底座转动舵机）：90°**|**舵机3（爪子处舵机）：60°**|
 
@@ -1623,6 +1631,8 @@ VCC接单片机电源输出端V/VCC（3.3/5V），GND接单片机G/GND，原始�
 可以直接加载我们提供的程序，也可以自己通过拖动程序块来编写程序程序，操作步骤如下：
 
 **（1）添加库文件**
+
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了库文件，此步骤直接跳过。</span>**
 
 打开MakeCode，先点击右上角的齿轮图标![Img](./media/img-20230324110032.png)（设置），再点击“扩展”。
 
@@ -1878,6 +1888,8 @@ d.先开启手机/iPad的蓝牙，再打开App，点击“CONNECT”进行蓝牙
 **4.实验代码：** 
 
 **（1）添加库文件**
+
+**<span style="color: rgb(255, 76, 65);">特别提醒：如果已经添加好了库文件，此步骤直接跳过。</span>**
 
 打开MakeCode，先点击右上角的齿轮图标![Img](./media/img-20230324110032.png)（设置），再点击“扩展”。
 
